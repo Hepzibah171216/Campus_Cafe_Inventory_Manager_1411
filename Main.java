@@ -88,6 +88,7 @@ public class Main {
                         double average = sum/count;
                         System.out.println("Average price: "+average);
                         System.out.println("Rounded down: "+(int)average);
+                    }
                     break;
                 case 5:
                     System.out.print("Product number: ");
@@ -100,7 +101,7 @@ public class Main {
                         System.out.println("Invalid product number or quantity.");
                     }
                     else{
-                        products[num - 1].quantity+ =extra;
+                        products[num - 1].quantity += extra;
                         System.out.println("Product restocked successfully.");
                     }
                     break;
